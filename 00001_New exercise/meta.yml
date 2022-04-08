@@ -1,0 +1,23 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si b está entre `a` y 0
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si `a` es menor `a` 0 pero mayor que `a`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si `a` esta entre `b` y 0
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si `a` es mayor a 0 pero menor que `b`
+  checked: false
+name: New exercise
