@@ -35,4 +35,4 @@ choices:
   value: La comparación `monto_infracciones == 0` es incorrecta, se debería escribir
     `monto_infracciones > 0`
   checked: false
-name: Nuevo ejercicio
+name: Se alquila
