@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si a, b y c son verdaderos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si a, b y c son falsos
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si alguno de a, b o c es verdadero
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dice si alguno de a, b o c es falso
+  checked: false
+name: Nuevo ejercicio
