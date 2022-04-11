@@ -33,4 +33,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`funcion_misteriosa(1, -1) produce un error`"
   checked: false
-name: Los bises
+name: Un bis
