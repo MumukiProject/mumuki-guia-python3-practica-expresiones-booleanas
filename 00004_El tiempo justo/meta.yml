@@ -19,7 +19,7 @@ choices:
   value: "`horas_fermentacion > 10 and horas_fermentacion < 14`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`horas_fermentacion > 14 and horas_fermentacion < 10`"
+  value: "`horas_fermentacion < 14 and horas_fermentacion > 10`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`horas_fermentacion > 10 or horas_fermentacion < 14`"
