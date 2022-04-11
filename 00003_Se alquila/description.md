@@ -2,7 +2,7 @@ En una tienda on-line de alquiler de automóviles :red_car:, se permiten únicam
 
 En la tienda programaron esta función:
 
-``` python
+```python
 def puede_alquilar_auto(edad, permiso_especial, registro, monto_infracciones)
   retun edad > 20 or permiso_especial and registro == True and monto_infracciones == 0
 ```
