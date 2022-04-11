@@ -1,4 +1,4 @@
-Dada la siguiente función: 
+Dada la siguiente función :scream:: 
 
 ```python
 def funcion_misteriosa(a, b): 
