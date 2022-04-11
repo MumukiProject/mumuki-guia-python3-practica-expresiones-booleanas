@@ -13,7 +13,7 @@ choices:
   value: Dice si `b` está entre `a` y 0
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Dice si `a` es menor `a` 0 pero mayor que `a`
+  value: Dice si `a` es menor a 0 pero mayor que `a`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Dice si `a` esta entre `b` y 0
