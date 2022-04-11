@@ -1,0 +1,3 @@
+Una conocida compañía de electrodomésticos necesita que mejoremos los controles de su nuevo modelo de yogurteras, y necesitamos asegurarnos de que el código que escribimos sea correcto. :milk:
+
+¿Cuáles de los siguientes fragmentos de código son expresiones booleanas que representan la condición _"la cantidad de horas de fermentación tiene que ser mayor a 10 y menor a 14"_? Seleccioná todas las opciones que consideres correctas:
