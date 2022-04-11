@@ -26,7 +26,7 @@ choices:
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Hay un error de sintaxis
-  checked: true
+  checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: La comparación `registro == True` es redundante, se debería escribir directamente
     `registro`
