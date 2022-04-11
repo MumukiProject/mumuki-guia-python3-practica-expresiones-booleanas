@@ -17,27 +17,27 @@ choices:
   value: '`str.startswith(password, "_") or str.startswith("-") or str.startswith(".")`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" in password or "-" in password or "." in password'
+  value: '`"_" in password or "-" in password or "." in password`'
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" in password and "-" in password and "." in password'
+  value: '`"_" in password and "-" in password and "." in password`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: password in "_" or password in "-" or password in "."
+  value: '`password in "_" or password in "-" or password in "."`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" == password or "-" == password or "." == password'
+  value: '`"_" == password or "-" == password or "." == password`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" == password and "-" == password and "." == password'
+  value: '`"_" == password and "-" == password and "." == password`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: password in "_" and "-" and "."
+  value: '`password in "_" and "-" and "."`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" or "-" or "." in password'
+  value: '`"_" or "-" or "." in password`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"_" and "-" and "." in password'
+  value: '`"_" and "-" and "." in password`'
   checked: false
 name: Máxima seguridad
